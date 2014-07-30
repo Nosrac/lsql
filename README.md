@@ -17,12 +17,17 @@ lsql.php [ directoryA, ... ] "expression"
 
 ### Example Expressions
 
-Find php files
+- Find php files
 ```SQL
 extension = 'php'
 ```
 
-Find files containing lorem ipsum
+- Find php files containing oldClass
 ```SQL
-content contains "lorem ipsum"
+extension = 'php' AND content contains "oldClass"
+```
+
+- Find files in a directory
+```SQL
+path contains "static_files"
 ```
