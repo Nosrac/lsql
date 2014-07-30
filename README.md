@@ -3,22 +3,22 @@ lsql
 
 Use SQL-style syntax to find the files you're looking for from the command line
 
-===========
-== USAGE ==
-===========
+
+USAGE
+=====
 > lsql.php [ directoryA, ... ] "expression"
 
-=============
-== COLUMNS ==
-=============
+
+COLUMNS
+=======
 name (string)
 path (string)
 extension (string)
 content (string)
 
-==============
-== EXAMPLES ==
-==============
+========
+EXAMPLES
+========
 
 # Find php files
 > lsql.php "extension = 'php'"
