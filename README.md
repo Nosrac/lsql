@@ -6,8 +6,9 @@ Use SQL-style syntax to find the files you're looking for from the command line
 
 Usage
 =====
-> lsql.php [ directoryA, ... ] "expression"
-
+```Shell
+lsql.php [ directoryA, ... ] "expression"
+```
 
 Columns
 =======
@@ -20,7 +21,11 @@ Examples
 ========
 
 Find php files
-> lsql.php "extension = 'php'"
+```Shell
+lsql.php "extension = 'php'"
+```
 
 Find files containing lorem ipsum
-> lsql.php "content contains 'lorem ipsum'"
+```Shell
+lsql.php "content contains 'lorem ipsum'"
+```
