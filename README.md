@@ -4,19 +4,19 @@ lsql
 Use SQL-style syntax to find the files you're looking for from the command line
 
 
-USAGE
+Usage
 =====
 > lsql.php [ directoryA, ... ] "expression"
 
 
-COLUMNS
+Columns
 =======
 - name (string)
 - path (string)
 - extension (string)
 - content (string)
 
-EXAMPLES
+Examples
 ========
 
 Find php files
