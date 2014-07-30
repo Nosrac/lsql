@@ -15,14 +15,14 @@ lsql.php [ directoryA, ... ] "expression"
 - extension (string)
 - content (string)
 
-### Examples
+### Example Expressions
 
 Find php files
-```Shell
-lsql.php "extension = 'php'"
+```SQL
+extension = 'php'
 ```
 
 Find files containing lorem ipsum
-```Shell
-lsql.php "content contains 'lorem ipsum'"
+```SQL
+content contains "lorem ipsum"
 ```
