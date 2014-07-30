@@ -11,17 +11,16 @@ USAGE
 
 COLUMNS
 =======
-name (string)
-path (string)
-extension (string)
-content (string)
+- name (string)
+- path (string)
+- extension (string)
+- content (string)
 
-========
 EXAMPLES
 ========
 
-# Find php files
+Find php files
 > lsql.php "extension = 'php'"
 
-# Find files containing lorem ipsum
+Find files containing lorem ipsum
 > lsql.php "content contains 'lorem ipsum'"
